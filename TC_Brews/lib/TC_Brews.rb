@@ -1,6 +1,8 @@
-require "TC_Brews/version"
+require 'pry'
+require 'json'
+require 'rest-client'
 
-module TCBrews
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require "./TC_Brews/version"
+require_relative './TC_Brews/CLI'
+require_relative './TC_Brews/Brewery'
+require_relative './TC_Brews/API' 
