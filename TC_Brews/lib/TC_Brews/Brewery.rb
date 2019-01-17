@@ -1,3 +1,0 @@
-class TCBrews::Brewery
-  
-end 
